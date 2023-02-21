@@ -1,0 +1,22 @@
+:root {
+  --menu-width: 210px;
+}
+
+html,
+body,
+#app {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+td .n-button + .n-button {
+  margin-left: 10px;
+}
+.n-upload-file-list .n-upload-file.n-upload-file--image-card-type {
+  position: relative;
+  width: 214px !important;
+  height: 96px;
+}
